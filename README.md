@@ -5,18 +5,27 @@ three questions - a Python-based sales analysis, an app exploration writeup,
 and a product/business opportunity discussion - and this repo has one
 deliverable for each.
 
+**Repository:** https://github.com/Ganesh-anandam/jar-assesment - the code,
+notebook and full commit history are here for review alongside the PDF.
+
 ## What's in here
 
 | File | Covers | Notes |
 |---|---|---|
-| `Sales_Analysis.ipynb` | Question 1 (all 3 parts) | Jupyter notebook, already executed - open it and the tables/charts/output are all baked in, no need to re-run anything to read it |
-| `Written_Answers.md` | Question 2 & Question 3 | Plain write-up, no code involved |
+| `Jar_Growth_Intern_Assignment_Submission.pdf` | Questions 1, 2 & 3 | **Final submission file** - single report: cover page, Q1 analysis (code + tables + charts + findings), then Q2 and Q3 |
+| `Sales_Analysis.ipynb` | Question 1 working | Source notebook behind the Q1 section - already executed, open it if you'd rather read/re-run the live version |
+| `Written_Answers.md` | Question 2 & 3 working | Source markdown behind the Q2/Q3 sections |
 | `List_of_Orders.xlsx` | raw data | one row per order (date, customer, state, city) |
 | `Order_Details.xlsx` | raw data | one row per order line item (category, sub-category, amount, profit, quantity) |
 | `Sales_target.xlsx` | raw data | monthly sales target per category |
 
 The three Excel files are exactly as provided in the assignment - untouched,
-so the notebook's data-cleaning steps can be followed from scratch.
+so the data-cleaning steps can be followed from scratch.
+
+The PDF is the actual submission, formatted as a single readable report
+rather than a raw notebook export - same underlying analysis and numbers as
+the notebook/markdown, just laid out for a reviewer rather than for
+re-running.
 
 ## Question 1 - how it's organized
 
